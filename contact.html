@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Jetro contact</title>
+        <link rel="stylesheet" href="styles/stylefonts.css">
+        <link rel="stylesheet" href="styles/style.css">
+        <!--Google Fonts-->
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet"> 
+        <!--Шрифты fontawesome-->
+        <script src="https://use.fontawesome.com/e31e66425c.js"></script>
+        <!--jQuery-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!--Slick slider-->
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+        <!--Googlemaps-->
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAcsAPF-IUwR10j_bT3I5mP5Yx2_qgw9FU&language=en&region=RO"></script>
+        
+<!--        <script src="script.js"></script>-->
+        <script src="scripts/burger.js"></script>
+        <script src="scripts/sidebar.js"></script>
+        <script src="scripts/contact.js"></script>
+    </head>
+    
+    <body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header__body">
+                    <div class="header__logo">   
+                        <a href="index.html"><span>JET</span>RO</a>
+                    </div>
+                    <div class="header__burger burger-menu">
+                        <span class="burger-menu__line burger-menu__line_1"></span>
+                        <span class="burger-menu__line burger-menu__line_2"></span>
+                        <span class="burger-menu__line burger-menu__line_3"></span>
+                        <span class="burger-menu__line burger-menu__line_4"></span>
+                    </div>
+                    <nav class="header__menu">
+                        <ul class="header__list">
+                            <li><a href="index.html" class="header__link ">Home</a></li>
+                            <li><a href="about.html" class="header__link">About <span>Us</span></a></li>
+                            <li><a href="blog.html" class="header__link">Blog</a></li>
+                            <li><a href="portfolio.html" class="header__link">Portfolio</a></li>
+                            <li><a href="#" class="header__link current">Contact  US</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <section class="title">
+           <div class="container title__cont">
+               <div class="title__body"><h1 class="title__name">Contact  Us</h1></div>
+           </div>
+        </section>
+        <section class="contact">
+        <div class="container">
+            <main class="contact__content">
+                <div id="map"></div>  
+                <div class="contact__body">
+                    <div class="contact__left">
+                       <p class="contact__text">Lorem ipsum dolor sit amet, in consectetur adipiscing elit. Siri Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum.</p>
+                       <h3 class="contact__title">Best PSD Freebies</h3>
+                       <p class="contact__address">328 Ave C Saskatoon, SK S7R 2V9</p>
+                       <div class="contact__tfe">
+                           <a href="tel:8888428356">t: (888) 842 - 8356</a>
+                           <a href="tel:8888529257">f: (888) 452 - 9257</a>
+                           <a href="mailto:info@psdfreebies.com">e: info@psdfreebies.com</a>   
+                       </div>   
+                    </div>
+                    <div class="contact__right">
+                        <form action="" class="contact__form">
+                           <input type="text" id="name" placeholder="FIRST NAME" required oninvalid="setCustomValidity('Error')"class="contact__item contact__item_row">
+                           <input type="text" id="lastname" placeholder="LAST NAME" required oninvalid="setCustomValidity('Error')"class="contact__item contact__item_row">
+                           <input type="email" id="email" placeholder="EMAIL ADDRESS" required oninvalid="setCustomValidity('Error')" class="contact__item contact__item_row">
+                           <textarea placeholder="MESSAGE"required oninvalid="setCustomValidity('Error')" class="contact__item"></textarea>
+                           <button type="submit" class="contact__btn">SUBMIT</button>
+                            
+                        </form>
+                    </div>
+                </div>
+            </main>
+            
+            <aside class="sidebar sidebar_contact">
+                <div class="sidebar__item sidebar__item_about">
+                    <div class="sidebar__row">
+                       <h2 class="sidebar__title">About&nbsp;Jetro</h2>
+                       
+                    </div>
+                   <p class="sidebar__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praese nt libero. Sed cursus ante dapibus diam. Sed nisi. </p>  
+                </div>
+                <div class="sidebar__item sidebar__item_categ">
+                  <div class="sidebar__row">
+                   <h2 class="sidebar__title">Categories</h2>
+                    </div>
+                   <ul class="sidebar__categories">
+                       <li><a href="">Video</a>(3)</li>
+                       <li><a href="">Sports</a>(5)</li>
+                       <li><a href="">Media</a>(2)</li>
+                       <li><a href="">Entertainment</a>(7)</li>
+                       <li><a href="">Life</a>(4)</li>
+                       <li><a href="">Super Cool Stuff</a>(8)</li>
+                   </ul>  
+                </div>
+                <div class="sidebar__item sidebar__item_gal">
+                  <div class="sidebar__row">
+                   <h2 class="sidebar__title">Photo&nbsp;Gallery</h2>
+                    </div>
+                   <div class="sidebar__gallery">
+                       <div class="sidebar__photo"><a href=""><img src="images/pic1.jpg" alt=""></a></div>
+                       <div class="sidebar__photo"><a href=""><img src="images/pic2.jpg" alt="">   
+                       </a></div>
+                       <div class="sidebar__photo"><a href=""><img src="images/pic3.jpg" alt=""></a></div>
+                       <div class="sidebar__photo"><a href=""><img src="images/pic4.jpg" alt=""></a></div>
+                       <div class="sidebar__photo"><a href=""><img src="images/pic5.jpg" alt=""></a></div>
+                       <div class="sidebar__photo"><a href=""><img src="images/pic6.jpg" alt=""></a></div>
+                       <div class="sidebar__photo"><a href=""><img src="images/pic7.jpg" alt=""></a></div>
+                       <div class="sidebar__photo"><a href=""><img src="images/pic8.jpg" alt=""></a></div>
+                   </div>  
+                </div>
+            </aside>    
+        </div>
+        </section>
+       
+        <footer class="footer">
+        <div class="container footer__cont">
+           <div class="footer__body">
+                <div class="footer__item">
+                    <h2 class="footer__title">About  Jetro</h2>
+                    <p class="footer__text">Lorem ipsum dolor sit amet, malorum recteque reprehendunt ea vel. Urbanitas adolescens vim te, per at tritani aperiri. Adhuc invenire convenire his ea. Id mei vitae denique, in eam commodo veritus disputando.</p>
+                    <p class="footer__text">Pro et erant delicata, eu vim essent imperdiet accommodare, dictas deseruisse ius an. Solet everti definitionem id ius, sonet oporteat cu vim.</p>
+                </div>
+                <div class="footer__item">
+                    <h2 class="footer__title">Twitter  Widget</h2>
+                    <p><a class="footer__link" href="https://twitter.com/pixelmater">@pixelmater</a><span class="footer__text">What an awesome design with great functionality :)</span></p>
+                    <p class="footer__time-ago">about 1 hour ago</p>
+                    <p><a class="footer__link" href="https://twitter.com/designdude">@designdude</a><span class="footer__text">What an awesome design with great functionality :)</span></p>
+                    <p class="footer__time-ago">about 2 hour ago</p>
+                    <p><span class="footer__text">Follow&nbsp;</span><a class="footer__link" href="mailto:vlad@bestpsdfreeb.ru">@bestpsdfreebies</a></p>
+                </div>
+              <div class="footer__item">
+                    <h2 class="footer__title">Contact  Us</h2>
+                    <p class="footer__text">Lorem ipsum dolor sit amet, malorum recteque reprehendunt ea vel. Urbanitas adolescens vim te, per at tritani aperiri.</p>
+                    <p><a class="footer__link footer__link_wh" href="mailto:information@jetro.com">information@jetro.com</a></p>
+                    <p class="footer__text">1.222.333.4444</p>
+                    <div class="footer__socials">
+                        <a href=""><img src="images/social1.png" alt=""></a>
+                        <a href=""><img src="images/social2.png" alt=""></a>
+                        <a href=""><img src="images/social3.png" alt=""></a>
+                        <a href=""><img src="images/social4.png" alt=""></a>
+                        <a href=""><img src="images/social5.png" alt=""></a>
+                    </div>
+                    
+                    
+              </div> 
+           </div>
+        </div>    
+        </footer>
+    </div>
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </body>  
+    
+</html>

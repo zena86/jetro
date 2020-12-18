@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Jetro portfolio</title>
+        <link rel="stylesheet" href="styles/stylefonts.css">
+        <link rel="stylesheet" href="styles/style.css">
+        <!--Google Fonts-->
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+        <!--Шрифты fontawesome-->
+        <script src="https://use.fontawesome.com/e31e66425c.js"></script>
+        <!--jQuery-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!--Slick slider-->
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+        <!--Googlemaps-->
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAcsAPF-IUwR10j_bT3I5mP5Yx2_qgw9FU&language=en&region=RO"></script>
+        
+<!--        <script src="script.js"></script>-->
+        <script src="scripts/burger.js"></script>
+        <script src="scripts/portfolio.js"></script>
+    </head>
+    
+    <body>
+    <div class="wrapper wrapper_blog">
+       <div class="test1">
+        <header class="header">
+            <div class="container">
+                <div class="header__body">
+                    <div class="header__logo">   
+                        <a href="index.html"><span>JET</span>RO</a>
+                    </div>
+                    <div class="header__burger burger-menu">
+                        <span class="burger-menu__line burger-menu__line_1"></span>
+                        <span class="burger-menu__line burger-menu__line_2"></span>
+                        <span class="burger-menu__line burger-menu__line_3"></span>
+                        <span class="burger-menu__line burger-menu__line_4"></span>
+                    </div>
+                    <nav class="header__menu">
+                        <ul class="header__list">
+                            <li><a href="index.html" class="header__link">Home</a></li>
+                            <li><a href="about.html" class="header__link">About Us</a></li>
+                            <li><a href="blog.html" class="header__link">Blog</a></li>
+                            <li><a href="#" class="header__link current">Portfolio</a></li>
+                            <li><a href="contact.html" class="header__link">Contact  US</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <section class="title">
+           <div class="container title__cont">
+               <div class="title__body">
+                   <h1 class="title__name">Portfolio</h1>
+               </div>
+           </div>
+        </section>
+        <section class="portfolio">
+        <div class="container">
+            <div class="portfolio__filter">
+                <ul>
+                    <li class="filter-active"><a href="javascript:cardFilter('all');">all</a></li>
+                    <li><a href="javascript:cardFilter('print');">print</a></li>
+                    <li><a href="javascript:cardFilter('web');">web</a></li>
+                    <li><a href="javascript:cardFilter('photoshop');">photoshop</a></li>
+                    <li><a href="javascript:cardFilter('wordpress');">wordpress</a></li>
+                </ul>
+            </div>
+            <div class="portfolio__grid">
+                <figure data-type="web" class="card__item card__item_portfolio">
+                    <div class="card__pic card__pic_portfolio"><a href=""><img src="images/pic11.jpg" alt=""></a>
+                    <div class="card__overlay">
+                        <div class="card__square">
+                            <a href="item.html"><i class="fa fa-plus" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                    </div>
+                    
+                    <figcaption class="card__desc">
+                        <p class="card__name"><a href="item.html">Character  Design</a></p>
+                        <p class="card__date">June 15, 2012</p>
+                    </figcaption>
+                </figure>
+                <figure data-type="print" class="card__item card__item_portfolio">
+                    <div class="card__pic card__pic_portfolio"><a href=""><img src="images/pic1.jpg" alt=""></a><div class="card__overlay">
+                        <div class="card__square">
+                            <a href="item.html"><i class="fa fa-plus" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                    </div>
+                    <figcaption class="card__desc">
+                        <p class="card__name"><a href="item.html">Brochure  Design</a></p>
+                        <p class="card__date">June 15, 2012</p>
+                    </figcaption>
+                </figure>
+                <figure data-type="web" class="card__item card__item_portfolio">
+                    <div class="card__pic card__pic_portfolio"><a href=""><img src="images/pic2.jpg" alt=""></a><div class="card__overlay">
+                        <div class="card__square">
+                            <a href="item.html"><i class="fa fa-plus" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                    </div>
+                    <figcaption class="card__desc">
+                        <p class="card__name"><a href="item.html">Social Media Buttons</a></p>
+                        <p class="card__date">June 15, 2012</p>
+                    </figcaption>
+                </figure>
+                <figure data-type="wordpress" class="card__item card__item_portfolio">
+                    <div class="card__pic card__pic_portfolio"><a href=""><img src="images/pic3.jpg" alt=""></a><div class="card__overlay">
+                        <div class="card__square">
+                            <a href="item.html"><i class="fa fa-plus" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                    </div>
+                    <figcaption class="card__desc">
+                        <p class="card__name"><a href="item.html">10 Amazing Websites</a></p>
+                        <p class="card__date">June 15, 2012</p>
+                    </figcaption>
+                </figure>
+                
+                <figure data-type="wordpress" class="card__item card__item_portfolio">
+                    <div class="card__pic card__pic_portfolio"><a href=""><img src="images/pic4.jpg" alt=""></a><div class="card__overlay">
+                        <div class="card__square">
+                            <a href="item.html"><i class="fa fa-plus" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                    </div>
+                    <figcaption class="card__desc">
+                        <p class="card__name"><a href="item.html">Character  Design</a></p>
+                        <p class="card__date">June 15, 2012</p>
+                    </figcaption>
+                </figure>
+                <figure data-type="web" class="card__item card__item_portfolio">
+                    <div class="card__pic card__pic_portfolio"><a href=""><img src="images/pic5.jpg" alt=""></a> <div class="card__overlay">
+                        <div class="card__square">
+                            <a href="item.html"><i class="fa fa-plus" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                    </div>
+                    <figcaption class="card__desc">
+                        <p class="card__name"><a href="item.html">Brochure  Design</a></p>
+                        <p class="card__date">June 15, 2012</p>
+                    </figcaption>
+                </figure>
+                <figure data-type="print" class="card__item card__item_portfolio">
+                    <div class="card__pic card__pic_portfolio"><a href=""><img src="images/pic6.jpg" alt=""></a><div class="card__overlay">
+                        <div class="card__square">
+                            <a href="item.html"><i class="fa fa-plus" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                    </div>
+                    <figcaption class="card__desc">
+                        <p class="card__name"><a href="item.html">Social Media Buttons</a></p>
+                        <p class="card__date">June 15, 2012</p>
+                    </figcaption>
+                </figure>
+                <figure data-type="wordpress" class="card__item card__item_portfolio">
+                    <div class="card__pic card__pic_portfolio"><a href=""><img src="images/pic7.jpg" alt=""></a><div class="card__overlay">
+                        <div class="card__square">
+                            <a href="item.html"><i class="fa fa-plus" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                    </div>
+                    <figcaption class="card__desc">
+                        <p class="card__name"><a href="item.html">10 Amazing Websites</a></p>
+                        <p class="card__date">June 15, 2012</p>
+                    </figcaption>
+                </figure>
+                
+                
+                <figure data-type="wordpress" class="card__item card__item_portfolio">
+                    <div class="card__pic card__pic_portfolio"><a href=""><img src="images/pic8.jpg" alt=""></a>
+                    <div class="card__overlay">
+                        <div class="card__square">
+                            <a href="item.html"><i class="fa fa-plus" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                    </div>
+                    <figcaption class="card__desc">
+                        <p class="card__name"><a href="item.html">Character  Design</a></p>
+                        <p class="card__date">June 15, 2012</p>
+                    </figcaption>
+                </figure>
+                <figure data-type="wordpress" class="card__item card__item_portfolio">
+                    <div class="card__pic card__pic_portfolio"><a href=""><img src="images/pic9.jpg" alt=""></a>
+                    <div class="card__overlay">
+                        <div class="card__square">
+                            <a href="item.html"><i class="fa fa-plus" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                    </div>
+                    <figcaption class="card__desc">
+                        <p class="card__name"><a href="item.html">Brochure  Design</a></p>
+                        <p class="card__date">June 15, 2012</p>
+                    </figcaption>
+                </figure>
+                <figure data-type="photoshop" class="card__item card__item_portfolio">
+                    <div class="card__pic card__pic_portfolio"><a href=""><img src="images/pic10.jpg" alt=""></a>
+                    <div class="card__overlay">
+                        <div class="card__square">
+                            <a href="item.html"><i class="fa fa-plus" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                    </div>
+                    <figcaption class="card__desc">
+                        <p class="card__name"><a href="item.html">Social Media Buttons</a></p>
+                        <p class="card__date">June 15, 2012</p>
+                    </figcaption>
+                </figure>
+                <figure data-type="wordpress" class="card__item card__item_portfolio">
+                    <div class="card__pic card__pic_portfolio"><a href="item.html"><img src="images/pic3.jpg" alt=""></a>
+                    <div class="card__overlay">
+                        <div class="card__square">
+                            <a href="item.html"><i class="fa fa-plus" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                    </div>
+                    <figcaption class="card__desc">
+                        <p class="card__name"><a href="item.html">10 Amazing Websites</a></p>
+                        <p class="card__date">June 15, 2012</p>
+                    </figcaption>
+                </figure>
+                
+                
+                
+            </div>
+        </div>
+        </section>
+    </div>
+        <footer class="footer footer_blog">
+        <div class="container footer__cont">
+           <div class="footer__body">
+                <div class="footer__item">
+                    <h2 class="footer__title">About  Jetro</h2>
+                    <p class="footer__text">Lorem ipsum dolor sit amet, malorum recteque reprehendunt ea vel. Urbanitas adolescens vim te, per at tritani aperiri. Adhuc invenire convenire his ea. Id mei vitae denique, in eam commodo veritus disputando.</p>
+                    <p class="footer__text">Pro et erant delicata, eu vim essent imperdiet accommodare, dictas deseruisse ius an. Solet everti definitionem id ius, sonet oporteat cu vim.</p>
+                </div>
+                <div class="footer__item">
+                    <h2 class="footer__title">Twitter  Widget</h2>
+                    <p><a class="footer__link" href="https://twitter.com/pixelmater">@pixelmater</a><span class="footer__text">What an awesome design with great functionality :)</span></p>
+                    <p class="footer__time-ago">about 1 hour ago</p>
+                    <p><a class="footer__link" href="https://twitter.com/designdude">@designdude</a><span class="footer__text">What an awesome design with great functionality :)</span></p>
+                    <p class="footer__time-ago">about 2 hour ago</p>
+                    <p><span class="footer__text">Follow&nbsp;</span><a class="footer__link" href="mailto:vlad@bestpsdfreeb.ru">@bestpsdfreebies</a></p>
+                </div>
+              <div class="footer__item">
+                    <h2 class="footer__title">Contact  Us</h2>
+                    <p class="footer__text">Lorem ipsum dolor sit amet, malorum recteque reprehendunt ea vel. Urbanitas adolescens vim te, per at tritani aperiri.</p>
+                    <p><a class="footer__link footer__link_wh" href="mailto:information@jetro.com">information@jetro.com</a></p>
+                    <p class="footer__text">1.222.333.4444</p>
+                    <div class="footer__socials">
+                        <a href=""><img src="images/social1.png" alt=""></a>
+                        <a href=""><img src="images/social2.png" alt=""></a>
+                        <a href=""><img src="images/social3.png" alt=""></a>
+                        <a href=""><img src="images/social4.png" alt=""></a>
+                        <a href=""><img src="images/social5.png" alt=""></a>
+                    </div>
+                    
+                    
+              </div> 
+           </div>
+        </div>    
+        </footer>
+    </div>
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </body>  
+    
+</html>

@@ -1,0 +1,42 @@
+@font-face {
+	font-family: "HelveticaNeueCyr-Bold";
+	src: url("fonts/HelveticaNeueCyr-Bold.woff"),
+    url("fonts/HelveticaNeueCyr-Bold.ttf"),
+    url("fonts/HelveticaNeueCyr-Bold.otf"),
+    url("fonts/HelveticaNeueCyr-Bold.eot");
+};
+@font-face {
+	font-family: "HelveticaNeueCyr-Italic";
+	src: url("fonts/HelveticaNeueCyr-Italic.woff"),
+    url("fonts/HelveticaNeueCyr-Italic.ttf"),
+    url("fonts/HelveticaNeueCyr-Italic.otf"),
+    url("fonts/HelveticaNeueCyr-Italic.eot");
+};
+@font-face {
+	font-family: "HelveticaNeueCyr-Light";
+	src: url("fonts/HelveticaNeueCyr-Light.woff"),
+    url("fonts/HelveticaNeueCyr-Light.ttf"),
+    url("fonts/HelveticaNeueCyr-Light.otf"),
+    url("fonts/HelveticaNeueCyr-Light.eot");
+};
+@font-face {
+	font-family: "HelveticaNeueCyr-Medium";
+	src: url("fonts/HelveticaNeueCyr-Medium.woff"),
+    url("fonts/HelveticaNeueCyr-Medium.ttf"),
+    url("fonts/HelveticaNeueCyr-Medium.otf"),
+    url("fonts/HelveticaNeueCyr-Medium.eot");
+};
+@font-face {
+	font-family: "HelveticaNeueCyr-Roman";
+	src: url("fonts/HelveticaNeueCyr-Roman.woff"),
+    url("fonts/HelveticaNeueCyr-Roman.ttf"),
+    url("fonts/HelveticaNeueCyr-Roman.otf"),
+    url("fonts/HelveticaNeueCyr-Roman.eot");
+}
+@font-face {
+	font-family: "Georgia-Roman";
+	src: url("fonts/ofont.ru_Georgia.woff"),
+    url("fonts/ofont.ru_Georgia.ttf"),
+    url("fonts/ofont.ru_Georgia.otf");
+}
+/*font-family: 'Bebas Neue', cursive;*/
