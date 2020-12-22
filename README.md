@@ -2,12 +2,12 @@
 
 DEMO [Jetro](https://zena86.github.io/jetro/)
 
-Языки    | Библиотеки |Плагины     | Сервисы                 | Инструменты   |Методология|CMS      |Прочие
----------|------------|------------|-------------------------|---------------|-----------|---------|-----------
-HTML5    |jQuery      |Slick slider|Google Fonts             |Brackets       |БЭМ        |Wordpress|CSS flexbox
-CSS3/SCSS|            |            |Font Awesome             |Adobe Photoshop|           |         |
-PHP      |            |            |Google Maps (Maps JS API)|Koala v2.3.0   |           |         |
-&nbsp;   |            |            |                         |Snazzy Maps    |           |         |
+Языки    | Библиотеки |Плагины     | Сервисы                 | Инструменты   |Методология|Прочие
+---------|------------|------------|-------------------------|---------------|-----------|-----------
+HTML5    |jQuery      |Slick slider|Google Fonts             |Brackets       |БЭМ        |CSS flexbox
+CSS3/SCSS|            |            |Font Awesome             |Adobe Photoshop|           |Wordpress
+PHP      |            |            |Google Maps (Maps JS API)|Koala v2.3.0   |           |
+&nbsp;   |            |            |                         |Snazzy Maps    |           |
 
 Адаптивность реализована за счет:
 * медиазапросов
