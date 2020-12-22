@@ -2,12 +2,14 @@
 
 DEMO [Jetro](https://zena86.github.io/jetro/)
 
-Языки    | Библиотеки |Плагины     | Сервисы                 | Инструменты   |Методология|Прочие
----------|------------|------------|-------------------------|---------------|-----------|-----------
-HTML5    |jQuery      |Slick slider|Google Fonts             |Brackets       |БЭМ        |CSS flexbox
-CSS3/SCSS|            |            |Font Awesome             |Adobe Photoshop|           |Wordpress
-PHP      |            |            |Google Maps (Maps JS API)|Koala v2.3.0   |           |
-&nbsp;   |            |            |                         |Snazzy Maps    |           |
+Языки    | Библиотеки |Плагины               | Сервисы                 | Инструменты   |Методология|Прочие
+---------|------------|----------------------|-------------------------|---------------|-----------|-----------
+HTML5    |jQuery      |Slick slider          |Google Fonts             |Brackets       |БЭМ        |CSS flexbox
+CSS3/SCSS|            |Advanced Custom Fields|Font Awesome             |Adobe Photoshop|           |Wordpress
+PHP      |            |Redux                 |Google Maps (Maps JS API)|Koala v2.3.0   |           |
+&nbsp;   |            |Contact Form 7        |                         |Snazzy Maps    |           |
+&nbsp;   |            |Custom Twitter Feeds  |                         |               |           |
+&nbsp;   |            |SVG Support           |                         |               |           |
 
 Адаптивность реализована за счет:
 * медиазапросов
@@ -47,7 +49,7 @@ PHP      |            |            |Google Maps (Maps JS API)|Koala v2.3.0   |  
 
 **7.  Карта Google с кастомизацией(Snazzy Maps), контактная форма**
 
-![Screenshort 1](/images/imgreadme/screenshort-contact.png)
+![Screenshort 1](/images/imgreadme/screen-contact.png)
 
 
 
