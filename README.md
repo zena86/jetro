@@ -16,44 +16,39 @@ PHP      |            |            |Google Maps (Maps JS API)|Koala v2.3.0   |  
 
 Для компиляции SCSS (переменные, миксины, вложенность, палитра цветов и размеры шрифтов) использовалось приложение Koala v2.3.0.
 
-**1. Полноэкранный (fullscreen) блок на главной странице, строка поиска**
+**1. Двойной слайдер**
 
-![Screenshort 1](/images/imgreadme/screenshort-main.png)
-
-
-**2. Яндекс карта со сменой локации и описания по клику на соответствующие кнопки**
-
-![Screenshort 1](/images/imgreadme/screenshort1.png)
+![Screenshort 1](/images/imgreadme/screen-main.png)
 
 
-**3. Контактная форма**
+**2. Бургер-меню**
 
-![Screenshort 1](/images/imgreadme/screenshort-form.png)
+![Screenshort 1](/images/imgreadme/screen-menu1.png)|![Screenshort 1](/images/imgreadme/screen-menu2.png)
+----------------------------------------------------|----------------------------------------------------
 
+**3. Фиксированный sidebar c настройкой верхнего уровня при скролинге, текст (в т.ч. двух- и трехколоночное размещение текста, заглавная буква, float и т.д.)**
 
-**4. Мега-меню**
+![Screenshort 1](/images/imgreadme/screen-text.png)
 
-![Screenshort 1](/images/imgreadme/screenshort-menu.png)
+**4. Видео кастомных размеров**
 
-
-**5. Карточка товара с описанием, выпадающим при наведении мыши**
-
-![Screenshort 1](/images/imgreadme/screenshort-card.png)
-
-
-**6. Слайдер, кастомизированные селекты (в т.ч. числовой), звездный рейтинг (с использованием Font Awesome и градиентной заливки)**
-
-![Screenshort 1](/images/imgreadme/screenshort-slider.png)
+![Screenshort 1](/images/imgreadme/screen-video.png)
 
 
-**7. Табы (на чистом CSS), видео**
+**5. Пагинация**
 
-![Screenshort 1](/images/imgreadme/screenshort-tabs.png)
+![Screenshort 1](/images/imgreadme/screen-pagination.png)
 
 
-**8. Бургер-меню**
+**6. Фильтрация контента**
 
-![Screenshort 1](/images/imgreadme/screenshort-burger.png)|![Screenshort 1](/images/imgreadme/screenshort-burger2.png)
-----------------------------------------------------------|-----------------------------------------------------------
+![Screenshort 1](/images/imgreadme/screen-filtr.png)
+
+
+**7.  Карта Google с кастомизацией(Snazzy Maps), контактная форма**
+
+![Screenshort 1](/images/imgreadme/screenshort-contact.png)
+
+
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
