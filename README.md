@@ -67,5 +67,6 @@ PHP      |            |Redux                 |Google Maps (Maps JS API)|Koala v2
 10. Интеграция c WP контактной формы (Contact Form 7)
 11. Интеграция c WP карты Google Maps (Redux, поля Text, Multi Text)
 
+![Screenshort 1](/images/imgreadme/screen-wp.png)
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
