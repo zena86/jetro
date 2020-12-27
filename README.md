@@ -2,14 +2,14 @@
 
 DEMO [Jetro](https://zena86.github.io/jetro/)
 
-Языки    | Библиотеки |Плагины               | Сервисы                 | Инструменты   |Методология|Прочие
----------|------------|----------------------|-------------------------|---------------|-----------|-----------
-HTML5    |jQuery      |Slick slider          |Google Fonts             |Brackets       |БЭМ        |CSS flexbox
-CSS3/SCSS|            |Advanced Custom Fields|Font Awesome             |Adobe Photoshop|           |Wordpress
-PHP      |            |Redux                 |Google Maps (Maps JS API)|Koala v2.3.0   |           |
-&nbsp;   |            |Contact Form&nbsp;7   |                         |Snazzy Maps    |           |
-&nbsp;   |            |Custom Twitter Feeds  |                         |               |           |
-&nbsp;   |            |SVG Support           |                         |               |           |
+Языки     | Библиотеки |Плагины               | Сервисы                 | Инструменты   |Методология|Прочие
+----------|------------|----------------------|-------------------------|---------------|-----------|-----------
+HTML5     |jQuery      |Slick slider          |Google Fonts             |Brackets       |БЭМ        |CSS flexbox
+CSS3/SCSS |            |Advanced Custom Fields|Font Awesome             |Adobe Photoshop|           |Wordpress
+JavaScript|            |Redux                 |Google Maps (Maps JS API)|Koala v2.3.0   |           |
+PHP       |            |Contact Form&nbsp;7   |                         |Snazzy Maps    |           |
+&nbsp;    |            |Custom Twitter Feeds  |                         |               |           |
+&nbsp;    |            |SVG Support           |                         |               |           |
 
 Адаптивность реализована за счет:
 * медиазапросов
@@ -58,7 +58,7 @@ PHP      |            |Redux                 |Google Maps (Maps JS API)|Koala v2
 	* основного в header (по страницам сайта)
 	* на странице с портфолио (по терминам пользовательской таксономии)
 3. Применение фильтра для присвоения собственных классов элементам меню
-4. Ипользование стандартных таксономий (на странице Вlog), постраничный вывод постов с использованием пагинации (query_posts, the_posts_pagination)
+4. Использование стандартных таксономий (на странице Вlog), постраничный вывод постов с использованием пагинации (query_posts, the_posts_pagination)
 5. Регистрация пользовательских типов записей (Portfolio) и таксономии (Skills)
 6. Вывод записей по различным критериям (определенного термина таксономии, последние по дате создания) с использованием класса WP_Query
 7. Создание шаблонов постов и страниц, регистрациия форматов записей
